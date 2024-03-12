@@ -1,0 +1,12 @@
+#
+#   ServerListStalkProtect
+#   © CMarco 2024
+#
+display:
+  online-players: 0                              # Min. Players
+  max-players: 0                                 # Max. Players
+  online-players-text: "§cHidden"  # Displayed message when hovering on players list
+  # ----------------------------------------------------------------------------------------------------------------#
+  random-fake-player-list: false           # Generate a random and fake player list on display
+  random-fake-players-amount: 5       # If fake-player-list is set to true, please specify its size here.
+  random-fake-players-fixed: true     # Whether to generate random fake players each time or not.

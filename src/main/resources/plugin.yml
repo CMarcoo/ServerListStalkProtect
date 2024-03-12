@@ -1,0 +1,17 @@
+name: ServerListStalkProtect
+version: '${project.version}'
+main: top.cmarco.serverliststalkprotect.ServerListStalkProtect
+depend: [ProtocolLib]
+authors: [CMarco]
+load: STARTUP
+api-version: '1.13'
+description: "Protect your server from server list stalkers"
+commands:
+  stalkprotect:
+    description: 'Main command of Server List Stalk Protect'
+    aliases:
+      - 'serverliststalkprotect'
+      - 'stalk-protect'
+      - 'slsp'
+      - 'liststalk'
+      - 'liststalkprotect'
